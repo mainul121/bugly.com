@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url(//db.onlinewebfonts.com/c/9d31c906a6cc6064bbe7d33d51058317?family=Montserrat+Ultra+Light);
+
+*{margin:0;padding:0;font-family:arial;}
+a{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{font-family:arial black}
+.topBar{
+	background: #222222;
+	overflow:hidden;
+	padding: 4px 0px;
+}
+.topLine{
+	width: 806px;
+	margin:auto;
+	overflow:hidden;
+}
+.phone, .email, .social{display:inline-block}
+.phone a{
+	float:left;
+	color: #f1f1f1;
+	font-size: 14px;
+	font-family: inherit;
+}
+.email a{
+	float:left;
+	color: #e5e3e3;
+	font-size: 14px;
+	font-family: inherit;
+}
+.social{
+	width: 75px;
+	float: right;
+	padding-top: 2px;
+}
+.social div{
+	display:inline-flex;
+}
+
+.fb, .tw, .lin {
+	color: #d5d5d5;
+	padding: 0px 2px;
+	transition:0.8s;
+}
+nav{
+	width: 806px;
+	margin:auto;
+	overflow: hidden;
+	padding: 0px;
+}
+.logoDiv a {
+	font-size:30px;
+	font-family: 'Permanent Marker', cursive;
+	width: 183px;
+	color: #33a1ff;
+	float:left;
+}
+ul{
+	list-style:none;
+}
+.rightContent{
+	height:30px
+}
+.mainMenu li{
+	text-align:center;
+	padding: 2px;
+	padding-left:2px;
+	width: 121px;
+	border-radius: 4px;
+	transition:.4s;
+}
+
+
+.rmenu a, .ih,.is, .ic, .ia{
+	color:white;
+	transition:0.4s;
+}
+.rmenu{
+	width: 502px;
+	float: right;
+	padding-top: 12px;
+}
+.mainMenu{
+	display:inline-flex;
+}
+i.fas {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.submenu li{
+	text-align:left;
+	width: 89%;
+	display: block;
+	border-bottom: 1px solid #7a79797a;
+	padding: 8px 9px;
+	background: #9d9c9c00;
+}
+.submenu li:hover{
+	background:#ffffff85;
+}
+.submenu{
+	width: 173px;
+	margin-top: 2px;
+	background: #7e7e7e6e;
+	display:none;
+	margin-left: 21px;
+	border-radius: 8px;
+	
+}
+.sub1:hover .submenu{
+	display:block;
+	position:absolute;transition:0.5s;
+}
+
+
+section{
+	background: linear-gradient(black,#000000c7,#000000eb), url(background.jpg);
+	background-repeat:no-repeat;
+	background-position:100%;
+	margin-top: -2px;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+section h1{
+	color:white;
+	font-size: 36px;
+	font-family: arial black;
+	text-align:center;
+	text-transform:uppercase;
+}
+section p{
+	color: #ffffffab;
+	text-align:center;
+	font-family:arial;
+	margin-top: 25px;
+}
+.intro{
+	width:100%;
+	padding-top: 125px;
+}
+.intro span{
+	font-family: arial black;
+	color: #00a1ff;
+}
+.btn div{
+	display: inline-block;
+	padding: 10px;
+	border:1px solid white;
+	color:white;
+	width: 136px;
+	text-align: center;
+	font-family: arial;
+	transition:0.6s;
+	font-weight: bold;
+}
+.btn div:hover{
+	color:black;
+	background:white;
+	cursor:pointer;
+}
+
+.btn {
+    margin: auto;
+    width: 339px;
+    padding: 17px;
+    padding-top: 57px;
+}
+.btn a {
+    color: white;
+}
+.abt {
+    float: left;
+    padding-right: 12px;
+    display: block;
+}
+
+.cntct {
+    float: right;
+}
+.text{
+	width:400px;
+	margin-left: 147px;
+	margin-top: 92px;
+	float: left;
+}
+.text h1{
+	font-family:arial black;
+	font-size: 20px;
+	color: #64b7dc;
+	padding: 2px 0px;
+	text-align: left !important;
+}
+.aboutdiv h1 span{
+	color: #ff6a00;
+	font-family:arial black;
+}
+.tp {
+    text-align: center;
+    font-family: arial black;
+	padding:20px;
+	padding-top:30px;
+}
+.aboutdiv h3 {
+    color: #64b7dc;
+}
+
+.aboutdiv div p {
+    color: black;
+    font-size:15px;
+    font-weight: 200;
+}
+.design,.pixel,.tech {
+    margin: 23px 0px;
+}
+.ti{
+	width: 1078px;
+	margin:auto;
+}
+.servicep{
+		background: #68ff6d4a;
+}
+.servicediv {
+	width:1000px;
+	margin:auto;
+	height:500px;
+
+}
+.servicediv span{
+	color: #ff6a00;
+	font-family:arial black;
+}
+.servicediv h1{
+	text-align:center;
+	padding: 16px 0px;
+	padding-top:25px;
+}
+.box{
+	width: 271px;
+	border: 1px solid #cccccc;
+	text-align:center;
+	padding: 15px 12px;
+	box-shadow: 0px 0px 9px -4px;
+	display:inline-block;
+	margin: 0px 9px;
+	padding-bottom: 0px;
+	background: #acacac0d;
+	height: 210px;
+	padding-top: 30px;
+	transition:0.6s;
+}
+.boxicon{
+	text-align:center;
+}
+.boxicon img {
+    width: 53px;
+    padding-bottom: 6px;
+}
+.box p {
+    width: 239px;
+    margin:auto;
+    padding: 13px 0px;
+    font-size: 14px;
+    color: #727272;
+}
+.box h3{
+	color: #f15900;
+}
+.box3{
+	width: 100%;
+	margin:auto;
+	text-align:center;
+	padding-top: 70px;
+}
+.box2 i{
+	font-size: 56px;
+	padding-bottom: 6px;
+	color: #ff6a00;
+}
+.boxs i{
+	font-size: 51px;
+	padding-bottom: 6px;
+	color: #ff6a00;
+
+}
+.boxs {
+		padding-top: 26px;
+}
+.happy{
+	background: linear-gradient(#2e2e2e,#15151599,#111111eb) ,url(dhaka.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	height: 327px;
+}
+.happy h2{
+	color:white;
+	text-align:center;
+	padding: 18px;
+	font-size: 34px;
+}
+.happy h2 span{
+	color: #3ca3fc;
+	font-family:arial black;
+}
+.ccc{
+	width:900px;
+	margin:auto;
+	text-align: center;
+}
+.cc{
+	color: #fff7f7ab;
+	display: inline-block;
+	width: 245px;
+	text-align: center;
+	margin: 10px;
+	font-size: 22px;
+	font-weight: 900;
+	padding: 9px;
+	
+}
+.happy i {
+    font-size: 64px;
+}
+.team{
+	background: #fff;
+}
+
+}
+
+}
+
+
+}
+.img1 img{
+	width:150px;
+	float:right;
+}
+.team h1{text-align:center;padding: 26px;color: #ff5252;}
+.s1 {
+	color: #258bc6;
+}
+.s2{
+	color: #c67828;
+}
+.team p {
+    font-family: cursive;
+    font-size: 14px;
+}
+.Mainul {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #cccccc9c;
+    box-shadow: 0px 0px 7px -4px;
+    margin-bottom: 28px;
+}
+
+.txt1 {
+    width: 400px;
+    float: left;
+    padding: 43px;
+}
+
+.txt1 h3 {
+    color: #35b5f1;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+}
+
+.txt1 span {
+    color: black;
+    font-size: 17px;
+}
+.sayed {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 7px -4px;
+	    margin-bottom: 28px;
+}
+.img2 img{
+	width:150px;
+	float:left;
+}
+
+.txt2 {
+    width: 427px;
+    float: right;
+    padding: 43px;
+    padding-right: 99px;
+}
+
+.txt2 h3 {
+    color: #35b5f1;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+}
+
+.txt2 span {
+    color: black;
+    font-size: 17px;
+}
+.samira {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 7px -4px;
+    margin-bottom: 53px;
+}
+
+.txt3 {
+    width: 400px;
+    float: left;
+    padding: 43px;
+}
+
+.txt3 h3 {
+    color: #35b5f1;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+}
+
+.txt3 span {
+    color: black;
+    font-size: 17px;
+}
+.img3 img{
+	width:150px;
+	float:right;
+}
+.team img{width:100%}
+.img1 {
+    float: right;
+    width: 156px;
+    padding: 15px;
+    padding-right: 51px;
+}
+.img2 {
+    width: 160px;
+    float: left;
+    padding: 17px;
+    padding-left: 39px;
+}
+.img3 {
+    width: 178px;
+    float: right;
+    padding: 15px;
+    padding-right: 37px;
+}
+.team img {
+
+    box-shadow: 0px 0px 7px -1px black;
+}
+.Mainul, .sayed, .samira{
+	height: 252px;
+	background: #98e7ff54;
+	border-radius: 6px;
+	transition:0.8s;
+}
+.foot{
+	background: linear-gradient(#2e2e2e,#151515c9,#111111eb) ,url(ft.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	height: 405px;
+}
+.foot1{
+	width: 910px;
+	margin:auto;
+	overflow: hidden;
+	padding-top: 39px;
+}
+.logo {
+    width: 241px;
+    float: left;
+    padding-left: 21px;
+}
+.follow {
+    width: 199px;
+    float: left;
+    padding: 30px 37px;
+}
+
+.quote {
+    width: 303px;
+    float: left;
+    padding: 29px;
+    padding-right: 0px;
+}
+
+.logo h2 {
+    color: white;
+    padding: 16px 0px 7px 9px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+}
+
+.address {
+    font-size: 14px;
+    font-family: cursive;
+    padding: 4px;
+    color: white;
+}
+.phone2 a, .email2 a {
+    font-family: cursive;
+    font-size: 14px;
+}
+
+
+.phone2 div a {
+    padding: 8px;
+    padding-left: 0px;
+    color: white;
+}
+
+.phone2 a {
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+}
+
+
+.email2  {
+    padding: 8px;
+    padding-left: 0px;
+    color: white;
+}
+.follow h3 {
+    font-size: 19px;
+    color: white;
+    margin-bottom: 12px;
+    border-bottom: 1px solid white;
+}
+.follow div {
+    color: WHITE;
+    padding: 5px 0px;
+}
+.follow div a {
+    color: WHITE;
+    PADDING: 5px 0px;
+}
+
+.quote h3 {
+    color: white;
+    margin: 1px 0px 15px 0px;
+}
+
+input {
+margin: 6px 0px;
+    padding: 7px;
+    width: 90%;
+    color: #c6c3c3;
+    border: 1px solid #ffffff59;
+    border-radius: 5px;
+    background: #0e0d0e7a;
+}
+
+textarea {
+    padding: 8px;
+    border: 1px solid #ffffff59;
+    border-radius: 8px;
+    color: #c6c3c3;
+    background: #0000006b;
+}
+
+input[type="email"] {
+    margin-bottom: 13px;
+}
+footer{
+	background: transparent;
+	color: #ffffff7a;
+	text-align:center;
+	font-size:15px;
+	padding: 8px;
+	margin-top: -36px;
+}
+input[type="submit"] {
+    width: 45%;
+    color: #918888;
+    cursor: pointer;
+	transition:0.6s;
+}
+.email2 a {
+    color: white;
+}
+.phone a:hover{
+	color:#0cbcff;
+	transition:0.5s
+}
+.phone a:hover .ph{
+	color:#0cbcff;
+	transition:0.5s
+}
+.email a:hover{
+	color:#0cbcff;
+	transition:0.5s
+}
+.email a:hover .em{
+	color: #0cbcff;
+	transition:0.5s
+}
+.topLine i {
+    padding: 2px;
+    font-size: 15px;
+}
+.fb:hover{
+	color:#0569be;
+	transform:translateY(-2px);
+}
+.tw:hover{
+	color:#77c8e7;
+		transform:translateY(-2px);
+
+}
+.lin:hover{
+	color:#d94646;
+		transform:translateY(-2px);
+		
+
+}
+.email {
+    width: 534px;
+}
+.rmenu a:hover{
+	color:#3aadff;	
+}
+.submenu li a:hover{
+	color:white;
+}
+.aboutdiv {
+    padding-bottom: 44px;
+}
+.box:hover{
+	    background: #53eb496b;
+		transform: translateY(-7px)
+}
+.team h1 span {
+    font-family: arial black;
+}
+.Mainul:hover, .sayed:hover, .samira:hover{
+	transform: translateX(20px);
+	background:#98e7ffeb;
+}
+.cc:hover{
+	color:#ffffffeb;
+	transition:0.7s;
+}
+.address:hover{
+	color:#3aadff;
+	transition:0.4s;
+}
+.phone2 a:hover{
+	color:#3aadff;
+	transition:0.4s;
+}
+.email2 a:hover{
+	color:#3aadff;
+	transition:0.4s;
+}
+.follow a:hover{
+	color:#19a7d7;
+	transition:0.4s;
+}
+input[type="submit"]:hover {
+	color:black;
+	background:white;
+}
+
