@@ -1,1 +1,1 @@
-# bugly.github.io
+# bugly.com
